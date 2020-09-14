@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NgxLoadingPluginComponent } from './ngx-loading-plugin.component';
+import { AddStudentComponent } from './add-student.component';
 
-describe('NgxLoadingPluginComponent', () => {
-  let component: NgxLoadingPluginComponent;
-  let fixture: ComponentFixture<NgxLoadingPluginComponent>;
+describe('AddStudentComponent', () => {
+  let component: AddStudentComponent;
+  let fixture: ComponentFixture<AddStudentComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ NgxLoadingPluginComponent ]
+      declarations: [ AddStudentComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(NgxLoadingPluginComponent);
+    fixture = TestBed.createComponent(AddStudentComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

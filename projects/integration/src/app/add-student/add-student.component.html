@@ -1,0 +1,9 @@
+<div class="form-container">
+    <form [formGroup]="form" class="form-wrapper">
+        <label for="email">Email:</label><br>
+        <input type="text" id="name" formControlName="email" autocomplete="off"><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" formControlName="password" autocomplete="off"><br>
+        <input type="submit" value="Submit" class="button" [ngxLoading]="onSubmit.bind(this)">
+    </form>
+</div>
