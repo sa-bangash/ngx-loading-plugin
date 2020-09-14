@@ -27,12 +27,10 @@ export class NgxloadingDirective implements OnDestroy {
         .subscribe(() => {
           this.onSuccess();
         }, (error) => {
-          console.error(error);
           this.onError();
         }
         );
     } catch (error) {
-      console.error(error);
       this.onError();
       this.onEnable();
     }
